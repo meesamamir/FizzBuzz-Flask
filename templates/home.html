@@ -19,9 +19,11 @@
             <br>
             <p>Enter the integer, N</p>
 
-            <input type="text" inputmode="numeric" placeholder="Enter N..." name="int_input" required>
+<!--        Applying validation checks for the user input -->
+            <input type="text" inputmode="numeric" placeholder="Enter N..." name="int_input" maxlength="5" pattern="\d*" required>
             <input type="submit" value="GENERATE" id="generate" >
 
+            <!-- printing results to web app -->
             <pre>{{results}}</pre>
 
         </form>
