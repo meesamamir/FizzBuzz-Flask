@@ -19,7 +19,7 @@ This is an implementation of the fizzBuzz problem in a web application.
 # Running
 - To run web app, you can directly visit: https://fizzbuzz-flask.herokuapp.com/
 - To run it locally via terminal, locate this directory ("FizzBuzz_Flask") on your machine, and start terminal
-    inside it. Use python command:  "python main.py" to compile
+    inside it. Use python command:  "python main.py" to compile;
     this outputs the web app link.
 
 
